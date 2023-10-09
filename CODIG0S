@@ -1,0 +1,230 @@
+CODIGO 1(IMAGEN)
+         <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Promedio Estudiantil</title>
+</head>
+<body>
+ </body>
+ <script>
+    let valor1;
+    let valor2;
+    valor1 = prompt('Ingrese primer numero');
+    valor2 = prompt('Ingrese segundo numero');
+    let suma = parseInt(valor1) + parseInt(valor2);
+    let producto = parseInt(valor1) * parseInt(valor2);
+    document.write('La suma es' );
+    document.write(suma);
+    document.write();
+    document.write('<br>');
+    document.write('El producto es' );
+    document.write(producto);
+ </script>
+</html>
+CODIGO 2(IMAGEN)
+       <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let nombre;
+        let nota;
+        nombre = prompt('Ingrese nombre:'); nota = parseInt(prompt('Ingrese su nota:'));
+        if (nota >= 4) {
+        document.write(nombre + 'esta aprobado con un' + nota);
+        }
+        </script>
+</body>
+</html>
+CODIGO 3(IMAGEN)
+        <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>  
+</body>
+<script>
+    let num1, num2;
+    num1 = parseInt(prompt('Ingrese el primer numero: '));
+    num2 = parseInt(prompt('Ingrese el segundo numero'));
+    if ( num1 > num2){
+        document.write('El mayor es' + num1);
+    }else{
+        document.write('El mayor es' + num2);
+    }
+</script>
+</html>
+CODIGO 4(IMAGEN)
+       <!DOCTYPE html>
+<html lang="en">
+<head>
+</head>
+<body>
+    <script>
+let nota1, nota2, nota3;
+nota1 = prompt('Ingrese 1ra. nota:');
+nota2 = prompt('Ingrese 2da. nota:');
+nota3 = prompt('Ingrese 3ra nota:');
+nota1 = parseInt(nota1);
+nota2 = parseInt(nota2);
+nota3 = parseInt(nota3);
+let pro;
+pro = (nota1 + nota2 + nota3) /3 ;
+if(pro => 7){
+    document.write('promocionando');
+}else{
+    if(pro>=4){
+        document.write('Regular');
+    }else{
+        document.write('reprovado');
+    }
+}
+    </script>
+</body>
+</html>
+CODIGO 5(IMAGEN)
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Ejemplo de JavaScript
+        </title>
+        <meta charset="UFT-8"
+        
+    </head>
+    <body>
+        <script>
+            function mostrarMensaje(){
+                document.write("Cuidado<br>");
+                document.write("Ingrese su documento correctamente<br>");
+            }
+            mostrarMensaje();
+            mostrarMensaje();
+            mostrarMensaje();
+        </script>
+    </body>
+</html>
+CODIGO 1(PDF)
+        <!DOCTYPE html>
+<html>
+
+<head>
+  <title>Ejemplo de JavaScript</title>
+  <meta charset="UTF-8">
+</head>
+
+<body>
+  <script>
+    let x = 1;
+    while (x <= 100) { // Cambiamos de '<-' a '<' para comparar si x es menor que 100
+      document.write(x);
+      document.write('<br>');
+      x = x + 1;
+    }
+  </script>
+</body>
+
+</html>
+CODIGO 2(PDF)
+       <!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Ejemplo de JavaScript</title>
+</head>
+
+<body>
+
+    <script>
+        let x = 1;
+        let suma = 0;
+
+        while (x <= 5) {
+            let valor = parseInt(prompt("Ingrese valor:"));
+            suma = suma + valor;
+            x = x + 1;
+        }
+
+        document.write("La suma de los valores es " + suma + "<br>");
+    </script>
+
+</body>
+
+</html>
+CODIGO 3(PDF)
+       <!DOCTYPE html>
+<html>
+<head>
+  <title>Ejemplo de JavaScript</title>
+  <meta charset="UTF-8">
+</head>
+<body>
+  <script>
+    let valor;
+
+    do {
+      valor = parseInt(prompt('Ingrese un valor entre 8 y 999:', ''));
+      document.write("El valor " + valor + " tiene ");
+
+      if (valor < 10) {
+        document.write("1 dígito");
+      } else if (valor < 100) {
+        document.write("2 dígitos");
+      } else {
+        document.write("3 dígitos");
+      }
+
+      document.write('<br>');
+    } while (valor < 8 || valor > 999);
+  </script>
+</body>
+</html>
+CODIGO 4(PDF)
+        <!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Ejemplo  de Javascript
+        </title>
+        <meta charset="UFT-8"
+    </head>
+    <body>
+        <script>
+            for(let f=1;f<=10;f++){
+                document.write(f+="");
+            }
+        </script>
+    </body>
+</html>
+CODIGO 5(PDF)
+        <!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Ejemplo de JavaScript
+        </title>
+        <meta charset="UFT-8"
+        
+    </head>
+    <body>
+        <script>
+            function mostrarMensaje(){
+                document.write("Cuidado<br>");
+                document.write("Ingrese su documento correctamente<br>");
+            }
+            mostrarMensaje();
+            mostrarMensaje();
+            mostrarMensaje();
+        </script>
+    </body>
+</html>
